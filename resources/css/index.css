@@ -1,0 +1,67 @@
+/* --------Basic setup-------*/
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.libertinus-mono-regular {
+  /* https://fonts.google.com/specimen/Libertinus+Mono */
+  font-family: "Libertinus Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header .navbar .nav {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  /* align-items: baseline; */
+  list-style-type: none;
+  padding-left: 75px;
+  padding-right: 75px;
+  font-weight: 500;
+  height: 100px;
+}
+
+.nav a {
+  margin: 10px 4px 0px 0px;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)),
+    url(../img/nightsky.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+a:visited {
+  color: white;
+  text-shadow: 1px 1px black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: grey;
+  background-color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 16;
+}
+
+.webdev-playground {
+  color: white;
+  text-align: center;
+  padding: 398px 0;
+  text-shadow: 1px 1px black;
+  letter-spacing: 2px;
+}
