@@ -15,11 +15,11 @@
 }
 
 header .navbar .nav {
-  background-color: transparent;
+  background-color: rgba(22, 17, 22, 0.6);
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  /* align-items: baseline; */
+  align-items: center;
   list-style-type: none;
   padding-left: 75px;
   padding-right: 75px;
