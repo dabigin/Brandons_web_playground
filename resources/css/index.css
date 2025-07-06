@@ -58,6 +58,11 @@ a {
   font-size: 16;
 }
 
+.cta {
+  position: absolute;
+  right: 10px;
+}
+
 .webdev-playground {
   color: white;
   text-align: center;
