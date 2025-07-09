@@ -3,28 +3,28 @@ h1 {
   font-weight: bold;
 }
 
-ul#menu li {
+ul #menu li {
   display: inline;
 }
 
-ul li#nav-selected {
-  color: red;
-}
-ul li#nav-unselected {
-  color: green;
-}
 body {
   background: rgb(67, 59, 98);
   background-image: url("../img/background-image.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  color: rgb(42, 57, 73);
+  color: whitesmoke;
 }
 hr br {
   color: teal;
 }
 
-p.footer {
-  color: rgb(24, 3, 37);
+a:link {
+  color: maroon;
+}
+a:visited {
+  color: violet;
+}
+a:hover {
+  color: grey;
 }

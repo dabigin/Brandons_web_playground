@@ -12,6 +12,7 @@ body {
   color: rgba(236, 232, 238, 0.7);
   display: flex;
   align-items: center;
+  text-shadow: black 1px 0 10px;
 }
 .container {
   align-self: center;
@@ -24,7 +25,6 @@ a {
 }
 a:hover {
   color: rgb(50, 49, 50);
-  text-decoration: highlight;
 }
 
 h1 {
@@ -38,4 +38,10 @@ footer {
   left: 10;
   font-size: 18px;
   text-align: center;
+}
+footer a {
+  text-shadow: rgb(71, 70, 72) 1px 0 10px;
+}
+footer a:hover {
+  color: rgba(236, 232, 238, 0.7);
 }
