@@ -1,9 +1,11 @@
 body {
   background: url("../img/sayan-nath-_e64LcXU6GE-unsplash.jpg");
   background-position: center;
+  background-color: skyblue;
   background-size: initial;
   background-repeat: no-repeat;
   background-color: transparent;
+  background-position: center;
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -44,4 +46,10 @@ footer a {
 }
 footer a:hover {
   color: rgba(236, 232, 238, 0.7);
+}
+
+@media screen and (max-width: 4000px) {
+  body {
+    background-size: cover;
+  }
 }
