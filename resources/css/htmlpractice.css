@@ -1,0 +1,41 @@
+body {
+  background: url("../img/sayan-nath-_e64LcXU6GE-unsplash.jpg");
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: rgba(236, 232, 238, 0.7);
+  display: flex;
+  align-items: center;
+}
+.container {
+  align-self: center;
+  margin: 0 auto;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(50, 49, 50);
+  text-decoration: highlight;
+}
+
+h1 {
+  text-shadow: black 1px 0 10px;
+  font-weight: 700;
+  text-align: center;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 10;
+  font-size: 18px;
+  text-align: center;
+}
