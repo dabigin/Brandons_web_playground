@@ -1,10 +1,9 @@
 body {
   background: url("../img/sayan-nath-_e64LcXU6GE-unsplash.jpg");
   background-position: center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background-size: initial;
+  background-repeat: no-repeat;
+  background-color: transparent;
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -37,6 +36,7 @@ footer {
   bottom: 0;
   left: 10;
   font-size: 18px;
+  font-weight: 300;
   text-align: center;
 }
 footer a {
