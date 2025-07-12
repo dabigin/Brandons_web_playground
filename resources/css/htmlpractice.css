@@ -1,11 +1,7 @@
 body {
-  background: url("../img/sayan-nath-_e64LcXU6GE-unsplash.jpg");
-  background-position: center;
-  background-color: skyblue;
-  background-size: initial;
-  background-repeat: no-repeat;
+  background: url("../img/sayan-nath-_e64LcXU6GE-unsplash.jpg") no-repeat center
+    center fixed;
   background-color: transparent;
-  background-position: center;
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -14,6 +10,38 @@ body {
   display: flex;
   align-items: center;
   text-shadow: black 1px 0 10px;
+}
+
+/* Breakpoints */
+/* 500px screen */
+@media (min-width: 500px) {
+  body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+}
+/* 4000px */
+@media (min-width: 4000px) {
+  body {
+    background: url("../img/sayan-nath-_e64LcXU6GE-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+  }
+  h1 {
+    font-weight: 900;
+    text-align: center;
+    font-size: 80px;
+  }
+  p {
+    font-weight: 700;
+    font-size: 60px;
+  }
 }
 .container {
   align-self: center;
@@ -46,10 +74,4 @@ footer a {
 }
 footer a:hover {
   color: rgba(236, 232, 238, 0.7);
-}
-
-@media screen and (max-width: 4000px) {
-  body {
-    background-size: cover;
-  }
 }
